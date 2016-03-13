@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-o$/;"	m
+DIFFARRAYS	main.c	5;"	d	file:
+DIFFARRAYS	working/main.c	5;"	d	file:
+ECONST	archive/kernel.c	5;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS=-lm$/;"	m
+OBJS	Makefile	/^OBJS= main.o kernel.o kernel.h$/;"	m
+PI	archive/kernel.c	4;"	d	file:
+PI	kernel.h	8;"	d
+PI	working/kernel.h	8;"	d
+VAR1	Makefile	/^VAR1=cat$/;"	m
+genFirstOrder	kernel.c	/^void genFirstOrder(float *g_mask, int length, float sigma) {	$/;"	f
+genFirstOrder	working/kernel.c	/^void genFirstOrder(float *g_mask, int length, float sigma) {	$/;"	f
+genSecondOrder	kernel.c	/^void genSecondOrder(float *g_mask, int length, float sigma) {	$/;"	f
+genSecondOrder	working/kernel.c	/^void genSecondOrder(float *g_mask, int length, float sigma) {	$/;"	f
+getGaussian	archive/kernel.c	/^float getGaussian(int val, float stdev) {$/;"	f
+main	archive/kernel.c	/^int main() {$/;"	f
+main	main.c	/^int main() {$/;"	f
+main	working/main.c	/^int main() {$/;"	f
+mask_CentralDiff	kernel.c	/^void mask_CentralDiff(float* sampleArray, int length_of_array, float* resultArray) {$/;"	f
+mask_CentralDiff	working/kernel.c	/^void mask_CentralDiff(float* sampleArray, int length_of_array, float* resultArray) {$/;"	f
+mask_ForwardDiff	kernel.c	/^void mask_ForwardDiff(float* sampleArray, int length_of_array, float* resultArray) {$/;"	f
+mask_ForwardDiff	working/kernel.c	/^void mask_ForwardDiff(float* sampleArray, int length_of_array, float* resultArray) {$/;"	f
+mask_Gaussian	kernel.c	/^void mask_Gaussian(float *sampleArray, float *g_mask, int length_mask, float *firstOrderArray) {$/;"	f
+mask_Gaussian	working/kernel.c	/^void mask_Gaussian(float *sampleArray, float *g_mask, int length_mask, float *firstOrderArray) {$/;"	f
+mask_Gaussian2	kernel.c	/^void mask_Gaussian2(float *sampleArray, float *g_mask, int length_mask, float *secondOrderArray) {$/;"	f
+mask_Gaussian2	working/kernel.c	/^void mask_Gaussian2(float *sampleArray, float *g_mask, int length_mask, float *secondOrderArray) {$/;"	f
+printArray	kernel.c	/^void printArray(float* resultArray, int length_of_array) {$/;"	f
+printArray	working/kernel.c	/^void printArray(float* resultArray, int length_of_array) {$/;"	f
